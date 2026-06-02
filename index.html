@@ -1,1 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta name="description"
+content="JS Web Studio builds modern websites for restaurants, boutiques, real estate businesses and startups.">
+
+<meta name="keywords"
+content="web development, website design, business website, restaurant website, boutique website">
+
+<meta name="author"
+content="JS Web Studio">
+
+<meta property="og:title"
+content="JS Web Studio">
+
+<meta property="og:description"
+content="Premium Websites For Businesses">
+
+<meta property="og:image"
+content="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200">
+
+<meta property="og:type"
+content="website">
+
+<title>JS Web Studio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-code"></i>
+
+<span>JS Web Studio</span>
+
+</div>
+
+<button id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="nav-actions">
+<button id="themeToggle">
+<i class="fa-solid fa-moon"></i>
+</button>
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>
+I Build Websites For
+<span id="typing"></span>
+</h1>
+
+<p>
+Premium websites for restaurants, boutiques,
+real estate, startups, and personal brands.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#contact" class="btn primary">
+Start a Project
+</a>
+
+<a href="#portfolio" class="btn secondary">
+View Portfolio
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="glow"></div>
+
+<img
+src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+alt="Developer Workspace"
+>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+<h2>10+</h2>
+<p>Websites Built</p>
+</div>
+
+<div class="stat">
+<h2>5+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Mobile Friendly</p>
+</div>
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+<h2>About Me</h2>
+
+<p>
+I create fast, responsive, and professional
+websites that help businesses grow online.
+From online stores to restaurant ordering systems,
+I design experiences that look modern and work smoothly.
+</p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+<h2>Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<i class="fa-solid fa-code"></i>
+<h3>Web Development</h3>
+<p>Modern responsive websites with premium UI.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-cart-shopping"></i>
+<h3>E-Commerce</h3>
+<p>Online stores with cart and ordering systems.</p>
+</div>
+
+<div class="card">
+<i class="fa-brands fa-whatsapp"></i>
+<h3>WhatsApp Integration</h3>
+<p>Direct customer ordering and communication.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-mobile-screen"></i>
+<h3>Mobile Optimization</h3>
+<p>Perfect experience across all devices.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="testimonials">
+
+<h2>What Clients Say</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+<p>"Professional service and excellent design. Highly recommended."</p>
+<h4>- Restaurant Owner</h4>
+</div>
+
+<div class="testimonial">
+<p>"My boutique website looks amazing and works perfectly."</p>
+<h4>- Boutique Client</h4>
+</div>
+
+<div class="testimonial">
+<p>"Fast delivery and great communication throughout the project."</p>
+<h4>- Business Owner</h4>
+</div>
+
+</div>
+
+</section>
+
+<section class="pricing">
+
+<h2>Pricing Packages</h2>
+
+<div class="pricing-grid">
+
+<div class="price-card">
+<h3>Starter</h3>
+<h1>$100</h1>
+<p>Business Landing Page</p>
+<p>Mobile Responsive</p>
+<p>WhatsApp Integration</p>
+</div>
+
+<div class="price-card featured">
+<h3>Business</h3>
+<h1>$250</h1>
+<p>Multi-Page Website</p>
+<p>Premium Design</p>
+<p>Contact Forms</p>
+<p>WhatsApp Integration</p>
+</div>
+
+<div class="price-card">
+<h3>Premium</h3>
+<h1>$500</h1>
+<p>E-Commerce Website</p>
+<p>Admin Features</p>
+<p>Advanced Animations</p>
+<p>Priority Support</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section class="portfolio" id="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="portfolio-grid" id="portfolioGrid"></div>
+
+</section>
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>How long does a website take?</h3>
+<p>Most websites are completed within 3-7 days.</p>
+</div>
+
+<div class="faq-item">
+<h3>Do you provide hosting?</h3>
+<p>Yes, I can help deploy your website online.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can I update my website later?</h3>
+<p>Yes, your website can be upgraded anytime.</p>
+</div>
+
+</section>
+
+<div class="contact-card">
+
+<h3>Let's Build Your Website</h3>
+
+<p>📱 WhatsApp: +220 7597080</p>
+
+<p>📧 Email: jawosamba189@gmail.com</p>
+
+<p>⏰ Response Time: Within 24 Hours</p>
+
+</div>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2>Start Your Project</h2>
+
+<form id="contactForm">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required
+>
+
+<input
+type="email"
+id="email"
+placeholder="Your Email"
+required
+>
+
+<input
+type="text"
+id="business"
+placeholder="Business Type"
+>
+
+<textarea
+id="message"
+placeholder="Tell me about your project"
+></textarea>
+
+<button type="submit">
+Send Request
+</button>
+
+</form>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>JS Web Studio</h3>
+
+<p>© 2026 All Rights Reserved</p>
+
+<div class="socials">
+
+<a href="#">
+<i class="fa-brands fa-facebook"></i>
+</a>
+
+<a href="#">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+<a href="#">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</div>
+
+</footer>
+
+<!-- PROJECTS -->
+
+<script src="projects.js"></script>
+
+<!-- MAIN JS -->
+
+<script src="script.js"></script>
+
+<a
+href="https://wa.me/2207597080"
+class="whatsapp-float"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<div id="projectModal" class="modal">
+
+<div class="modal-content">
+
+<span id="closeModal">&times;</span>
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalText">
+Professional website project.
+</p>
+
+</div>
+
+</div>
+
+<div id="overlay"></div>
+
+</body>
+  </html>
