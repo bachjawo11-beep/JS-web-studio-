@@ -1,9 +1,9 @@
 const projects = [
   {
-name: "Coffee Shop Website",
-image: "coffee-shop.png",
-description: "Modern coffee shop website with online ordering."
-},
+  name: "Coffee Shop Website",
+  image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+  description: "Modern coffee shop website."
+  },
 {
 name: "Boutique Website",
 image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop"
