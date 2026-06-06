@@ -141,16 +141,6 @@ position:relative;
 z-index:2;
 }
 
-.glow{
-position:absolute;
-width:350px;
-height:350px;
-background:#38bdf8;
-filter:blur(120px);
-opacity:0.4;
-z-index:1;
-}
-
 /* SECTIONS */
 
 section{
